@@ -1,4 +1,4 @@
-/* Timothy Framework - www.timothyframework.com */
+﻿/* Timothy Framework - www.timothyframework.com */
 /* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
 
 
@@ -66,7 +66,7 @@ img			{ max-width:100%; }
 /* Global */
 
 html 	{	}
-body		{ background-image:url(../images/bg/bg3.jpg); background-attachment:fixed; 
+body		{ background-image:url(/assets/bg/bg3.jpg); background-attachment:fixed; 
 			-webkit-font-smoothing: antialiased; 
 			-webkit-text-size-adjust: 100%;  }
 
@@ -166,11 +166,11 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 /* Containers */
 
 #wrapper 			{ width:900px; margin:0 auto; background-color:#fff; overflow:auto;
-					background-image:url(../images/bg/cross.fw.png);
+					background-image:url(/assets/bg/cross.fw.png);
 					background-repeat:repeat;   }
 
 #top	 			{ padding:70px 20px 20px 20px; background-color:#39C;
-					overflow:auto; background-image:url(../images/bg/bg-grid2.png);
+					overflow:auto; background-image:url(/assets/bg/bg-grid2.png);
 					background-repeat:repeat; border-bottom:1px #fff solid;   }
 
 #name			{ float:left;	}
@@ -264,7 +264,7 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 #box6 h2, #box6 p	{ text-align:center; margin:.5em 0; 	}
 
 #social-media		{ clear:both; background-color:#DFF4FF;
-					background-image:url(../images/bg/bg-grid.jpg.png);
+					background-image:url(/assets/bg/bg-grid.jpg.png);
 					background-repeat:repeat-x;	}
 #social-media ul 	{ text-align:center; padding:15px 0;	}
 #social-media ul li	{ display:inline; margin:0 15px;  	}
