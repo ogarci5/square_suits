@@ -1,6 +1,16 @@
+
 SquareSuits::Application.routes.draw do
   root to: "pages#index"
-  get '/about' => 'pages#about'
+  get 'about' => 'pages#about'
+  get 'services' => 'pages#services'
+  get 'temp' => 'pages#temp'
+
+
+
+
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
