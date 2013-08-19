@@ -1,0 +1,2 @@
+module Sequence::ClientsHelper
+end

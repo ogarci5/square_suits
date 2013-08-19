@@ -1,0 +1,2 @@
+module Sequence::UsersHelper
+end

@@ -1,15 +1,16 @@
-
 SquareSuits::Application.routes.draw do
-  root to: "pages#index"
-  get 'about' => 'pages#about'
-  get 'services' => 'pages#services'
-  get 'temp' => 'pages#temp'
-
-
-
-
-
-
+  require 'domains'
+  
+  constraints Subdomain::Sequence do
+  	root to: "sequence/home#index"
+  end
+  
+  constraints RootDomain do
+  	root to: "pages#index"
+  	get 'about' => 'pages#about'
+  	get 'services' => 'pages#services'
+  	get 'temp' => 'pages#temp'
+	end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
